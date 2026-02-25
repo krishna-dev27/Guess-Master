@@ -1,0 +1,207 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #0a1f44 0%,
+        #0b3d91 40%,
+        #1f5fbf 60%,
+        #0a1f44 100%
+    );
+    font-family: Arial, sans-serif;
+}
+/* HEADER CODE */
+
+.logo{
+    display: flex;
+}
+.registerbutton{
+    display: flex;
+    justify-content:space-between;
+    gap: 13px;
+    align-items: center;
+    
+}
+.registerbutton>div>a{
+    
+    margin-top: 15px;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: rgb(190, 205, 247);
+    font-weight: 10;
+}
+
+.registerbutton>div>a:hover{
+    color: white;
+    
+}
+
+#signup{
+    border: 1px solid rgb(190, 205, 247);
+    border-radius: 5px;
+    margin-right: 25px;
+}
+
+#signup:hover{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    
+}
+
+
+.registerbutton>div>img{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+
+
+/* CONTENT CODE */
+
+#play-button{
+   
+    text-align: center;
+}
+#play-button button{
+   border: 1px solid rgb(190, 205, 247);
+   margin-top: 10px;
+    border-radius: 5px;
+    padding: 10px 23px;
+    background-color: transparent;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(190, 205, 247) ;
+    
+}
+
+#play-button button:hover{
+     background-color: green;
+      transform: scale(1.1);  
+
+}
+
+
+.instructions{
+   width: 37%;
+   margin: auto;
+   margin-top: 150px;
+}
+
+.instructions>ul>li{
+    color: rgb(190, 205, 247);
+    margin-bottom: 7px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.instructions>ul>li:hover{
+    color:white;
+     transform: scale(1.025);  
+    
+
+}
+
+.instructions h2{
+    text-align: center;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:underline;
+}
+
+
+
+/* Registration Page */
+
+.fieldset-register{
+    width: 25%;
+    margin: 150px auto;
+    padding: 20px;
+    border: 2px solid rgb(159, 181, 240);
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.114);
+
+    box-shadow: 0 0 15px rgb(173, 193, 247);
+    
+}
+
+/* .fieldset-register label{
+ 
+} */
+
+.fieldset-register input{
+    margin-left: 40px;
+}
+
+
+.fieldset-register form button{
+    display: block;
+     border: 1px solid rgb(190, 205, 247);
+      border-radius: 5px;
+     padding: 10px 23px;
+    background-color: transparent;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(190, 205, 247) ;
+   
+    margin: auto;
+    margin-top: 35px;
+
+}
+
+.fieldset-register form button:hover{
+    background-color: green;
+    transform: scale(1.1); 
+}
+
+
+#id_email{
+    margin-left: 10px;
+}
+
+#id_password{
+    margin-left: 50px;
+
+}
+
+.fieldset-register{
+    text-align: center;
+    height: 300px;
+}
+
+.fieldset-register form p input{
+    color:white ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    height: 13px;
+     border: 1px solid rgb(190, 205, 247);
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.fieldset-register form p input:hover{
+    box-shadow: 0 0 15px rgb(173, 193, 247);
+}
+
+
+.register h1{
+ text-align: center;
+}
+
+
+.register h1 {
+    position: relative;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 255, 255) ;
+}
+
+.fieldset-register form p label{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.fieldset-register form p{
+    margin-top: 25px;
+}

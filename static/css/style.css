@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(
+        135deg,
+        #0a1f44 0%,
+        #0b3d91 40%,
+        #1f5fbf 60%,
+        #0a1f44 100%
+    );
+    font-family: Arial, sans-serif;
+}
+
+.registerbutton{
+    display: flex;
+    justify-content: end;
+    gap: 13px;
+    
+}
+.registerbutton>a{
+    
+    margin-top: 15px;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: rgb(190, 205, 247);
+    font-weight: 10;
+}
+#signup{
+    border: 1px solid rgb(190, 205, 247);
+    border-radius: 5px;
+    margin-right: 25px;
+}

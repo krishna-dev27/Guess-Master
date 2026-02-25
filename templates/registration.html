@@ -1,0 +1,31 @@
+{% extends 'dummy.html' %}
+
+
+{% block title %}
+<title>Registration</title>
+{% endblock %}
+
+
+{% block content%}
+
+
+
+
+
+<fieldset class="fieldset-register">
+    <div class="register">
+    <h1>Register Here👇</h1>
+</div>
+
+    <form action="" method="POST">
+        {% csrf_token %}
+        {{ERFO.as_p}}
+        <button>SUBMIT</button>
+    </form>
+</fieldset>
+
+   
+{% endblock %}
+
+
+

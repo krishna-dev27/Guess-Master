@@ -1,0 +1,34 @@
+{% extends 'dummy.html' %}
+
+
+{% block title %}
+<title>SignIn</title>
+{% endblock %}
+
+
+{% block content%}
+
+
+
+
+
+<fieldset class="fieldset-register">
+    <div class="register">
+    <h1>Sign In👇</h1>
+</div>
+
+    <form action="" method="POST">
+        {% csrf_token %}
+        <p><label for="username">Username:</label>
+        <input type="text" name="username"></p>
+        <p><label for="password">Password:</label>
+        <input type="text" name="password"></p>
+        <button>SUBMIT</button>
+    </form>
+</fieldset>
+
+   
+{% endblock %}
+
+
+
